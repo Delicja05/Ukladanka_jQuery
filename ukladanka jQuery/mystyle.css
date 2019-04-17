@@ -1,0 +1,100 @@
+html {
+  background-color: #696969;
+  height:100%;
+  width: 1170px;
+  margin-left: calc((100% - 1170px)/2);
+}
+
+body {
+  background: #696969;
+  color: black;
+  margin: 0px;
+  padding: 10px;
+  height:100%;
+}
+
+.container {
+  height: 100%; 
+  margin: 10px; 
+  margin-left: -10px;
+}
+
+.main {
+  display: table;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  padding: 0px;
+}
+
+header {
+  background: #9ACD32;
+  border-radius: 10px;
+  height: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: -10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+section {
+  display: table;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+table{
+  display: table;
+  width: 50%;
+  margin: 10px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 2.4em;
+  background: blue;
+}
+
+.blank {
+  background: #C0C0C0;
+}
+
+.on {
+  background: green;
+}
+
+#wynik {
+  background: #9ACD32;
+  display: block;
+  height: 30px;
+  max-width: 200px;  
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  margin-top: 10px;
+  margin-right: -10px;
+  padding-top: 10px;
+}
+
+#start{
+  display: block;
+}
+
+#gra{
+  display: none;
+}
+
+@media only screen and (max-width: 1170px) 
+{
+  html {
+  height:100%;
+  width: 100%;
+  margin-left: 0px;  
+  }
+
+}
